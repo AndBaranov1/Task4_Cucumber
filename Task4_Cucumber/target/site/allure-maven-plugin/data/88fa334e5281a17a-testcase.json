@@ -1,0 +1,446 @@
+{
+  "uid" : "88fa334e5281a17a",
+  "name" : "Заявка на Страхование",
+  "title" : "Заявка на Страхование",
+  "time" : {
+    "start" : 1529249054579,
+    "stop" : 1529249138466,
+    "duration" : 83887
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "b23ae517e91bab65",
+    "name" : "Страхование",
+    "title" : "Страхование"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Страхование\"",
+    "title" : "Когда выбран пункт меню \"Страхование\"",
+    "time" : {
+      "start" : 1529249107624,
+      "stop" : 1529249114070,
+      "duration" : 6446
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMainMenu[Страхование]",
+      "title" : "выбран пункт меню Страхование",
+      "time" : {
+        "start" : 1529249111646,
+        "stop" : 1529249114064,
+        "duration" : 2418
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран вид страхования \"Путешествия и покупки\"",
+    "title" : "И выбран вид страхования \"Путешествия и покупки\"",
+    "time" : {
+      "start" : 1529249114070,
+      "stop" : 1529249120398,
+      "duration" : 6328
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectSubMenu[Путешествия и покупки]",
+      "title" : "выбран вид страхования Путешествия и покупки",
+      "time" : {
+        "start" : 1529249114075,
+        "stop" : 1529249120396,
+        "duration" : 6321
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран пункт меню1 \"Страхование\"",
+    "title" : "Когда выбран пункт меню1 \"Страхование\"",
+    "time" : {
+      "start" : 1529249120400,
+      "stop" : 1529249121041,
+      "duration" : 641
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelect1MainMenu[Страхование]",
+      "title" : "выбран пункт меню Страхование",
+      "time" : {
+        "start" : 1529249120411,
+        "stop" : 1529249121041,
+        "duration" : 630
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран вид страхования1 \"Путешествия и покупки\"",
+    "title" : "И выбран вид страхования1 \"Путешествия и покупки\"",
+    "time" : {
+      "start" : 1529249121046,
+      "stop" : 1529249125260,
+      "duration" : 4214
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelect1SubMenu[Путешествия и покупки]",
+      "title" : "выбран вид страхования Путешествия и покупки",
+      "time" : {
+        "start" : 1529249121048,
+        "stop" : 1529249125260,
+        "duration" : 4212
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И заголовок страницы равен \"Страхование путешественников\"",
+    "title" : "И заголовок страницы равен \"Страхование путешественников\"",
+    "time" : {
+      "start" : 1529249125260,
+      "stop" : 1529249127045,
+      "duration" : 1785
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepTitle[Страхование путешественников]",
+      "title" : "заголовок страницы равен Страхование путешественников",
+      "time" : {
+        "start" : 1529249125262,
+        "stop" : 1529249127045,
+        "duration" : 1783
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выполнено нажатие на кнопку Оформить онлайн",
+    "title" : "Когда выполнено нажатие на кнопку Оформить онлайн",
+    "time" : {
+      "start" : 1529249127046,
+      "stop" : 1529249127922,
+      "duration" : 876
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepissueButtonTravels",
+      "title" : "выполнено нажатие на кнопку - Оформить онлайн",
+      "time" : {
+        "start" : 1529249127050,
+        "stop" : 1529249127922,
+        "duration" : 872
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда переход на другую вкладку",
+    "title" : "Тогда переход на другую вкладку",
+    "time" : {
+      "start" : 1529249127923,
+      "stop" : 1529249128183,
+      "duration" : 260
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "switchTab",
+      "title" : "переход на другую вкладку",
+      "time" : {
+        "start" : 1529249127925,
+        "stop" : 1529249128182,
+        "duration" : 257
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выполнен выбор суммы Минимальная",
+    "title" : "Когда выполнен выбор суммы Минимальная",
+    "time" : {
+      "start" : 1529249128189,
+      "stop" : 1529249134192,
+      "duration" : 6003
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectSum",
+      "title" : "выполнен выбор минимальной суммы",
+      "time" : {
+        "start" : 1529249128198,
+        "stop" : 1529249134192,
+        "duration" : 5994
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выполнено нажатие на кнопку Оформить",
+    "title" : "Тогда выполнено нажатие на кнопку Оформить",
+    "time" : {
+      "start" : 1529249134193,
+      "stop" : 1529249135275,
+      "duration" : 1082
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepissueButton",
+      "title" : "выполнено нажатие на кнопку - Оформить",
+      "time" : {
+        "start" : 1529249134195,
+        "stop" : 1529249135275,
+        "duration" : 1080
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1529249135283,
+      "stop" : 1529249137097,
+      "duration" : 1814
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Застрахованные: Фамилия, Ivanov]",
+      "title" : "поле Застрахованные: Фамилия заполняется значением Ivanov",
+      "time" : {
+        "start" : 1529249135288,
+        "stop" : 1529249136407,
+        "duration" : 1119
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Застрахованные: Имя, Ivan]",
+      "title" : "поле Застрахованные: Имя заполняется значением Ivan",
+      "time" : {
+        "start" : 1529249136407,
+        "stop" : 1529249136582,
+        "duration" : 175
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Застрахованные: Дата рождения, 05.05.1990]",
+      "title" : "поле Застрахованные: Дата рождения заполняется значением 05.05.1990",
+      "time" : {
+        "start" : 1529249136583,
+        "stop" : 1529249137097,
+        "duration" : 514
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда значения полей равны:",
+    "title" : "Тогда значения полей равны:",
+    "time" : {
+      "start" : 1529249137101,
+      "stop" : 1529249137414,
+      "duration" : 313
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepCheckFillField[Застрахованные: Фамилия, Ivanov]",
+      "title" : "поле Застрахованные: Фамилия заполнено значением Ivanov",
+      "time" : {
+        "start" : 1529249137106,
+        "stop" : 1529249137144,
+        "duration" : 38
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Застрахованные: Имя, Ivan]",
+      "title" : "поле Застрахованные: Имя заполнено значением Ivan",
+      "time" : {
+        "start" : 1529249137146,
+        "stop" : 1529249137178,
+        "duration" : 32
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Застрахованные: Дата рождения, 05.05.1990]",
+      "title" : "поле Застрахованные: Дата рождения заполнено значением 05.05.1990",
+      "time" : {
+        "start" : 1529249137180,
+        "stop" : 1529249137414,
+        "duration" : 234
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Страхование"
+  }, {
+    "name" : "suite-name",
+    "value" : "Страхование"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "1-ПК"
+  }, {
+    "name" : "story",
+    "value" : "Заявка на Страхование"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "5460@1-ПК.main(1)"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "44873b32bc77c8ba",
+      "failure" : {
+        "message" : "AssertionError: Значение поля [Дата рождения] равно []. Ожидалось - [10.06.2012]",
+        "stackTrace" : "java.lang.AssertionError: Значение поля [Дата рождения] равно []. Ожидалось - [10.06.2012]\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat steps.Page2Step.stepCheckFillField(Page2Step.java:28)\n\tat steps.ScenarioSteps.lambda$stepCheckFillField$1(ScenarioSteps.java:71)\n\tat java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)\n\tat java.util.Collections$UnmodifiableMap.forEach(Collections.java:1505)\n\tat steps.ScenarioSteps.stepCheckFillField(ScenarioSteps.java:71)\n\tat ✽.Тогда значения полей равны:(Страхование.feature:61)\n"
+      },
+      "testCases" : [ {
+        "uid" : "2729d8f5afae3aa9",
+        "name" : "Заявка на Страхование негативный",
+        "title" : "Заявка на Страхование негативный",
+        "time" : {
+          "start" : 1529249138513,
+          "stop" : 1529249182718,
+          "duration" : 44205
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

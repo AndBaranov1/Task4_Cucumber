@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "88fa334e5281a17a",
+    "name" : "Заявка на Страхование",
+    "title" : "Заявка на Страхование",
+    "time" : {
+      "start" : 1529249054579,
+      "stop" : 1529249138466,
+      "duration" : 83887
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2729d8f5afae3aa9",
+    "name" : "Заявка на Страхование негативный",
+    "title" : "Заявка на Страхование негативный",
+    "time" : {
+      "start" : 1529249138513,
+      "stop" : 1529249182718,
+      "duration" : 44205
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  } ]
+}
