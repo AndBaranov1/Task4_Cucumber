@@ -9,10 +9,10 @@ import steps.BaseSteps;
 /**
  * Created by 1 on 09.06.2018.
  */
-public class Page2 {
+public class Blanck2Page {
 
     WebDriver driver;
-    public Page2() {
+    public Blanck2Page() {
         PageFactory.initElements(BaseSteps.getDriver(), this);
     }
 
