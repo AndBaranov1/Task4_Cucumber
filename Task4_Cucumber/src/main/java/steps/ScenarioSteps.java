@@ -71,10 +71,10 @@ public class ScenarioSteps {
         field.asMap(String.class, String.class).forEach((key, value)->page2Step.stepCheckFillField(key, value));
     }
 
-//    @Then("^в поле \"(.+)\" присутствует сообщение об ошибке \"(.+)\"$")
-//    public void stepPhone(String expectedPhone) {
-//
-//    }
+ @Then("^текст ошибка о пустых контактных данных - \"(.+)\"$")
+    public void stepPhone(String expectedPhone){
+        sendApp2Steps.stepPhone(expectedPhone);
+    }
 
 
     @When("^выполнено нажатие на кнопку Продолжить$")
