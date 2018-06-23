@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by 1 on 14.06.2018.
  */
-public class Page2Step {
+public class Blanck2PageStep {
 
     @Step("поле {0} заполняется значением {1}")
     public void stepFillField(String field, String value){
@@ -34,12 +34,12 @@ public class Page2Step {
         fields.forEach(this::stepCheckFillField);
     }
 
-//    @Step("текст ошибка о пустых контактных данных - {0}")
-//    public void stepPhone(String expectedPhone){
-//        String actualPhone = new Page2().phone.getText();
-//        assertTrue(String.format("Заголовок равен [%s]. Ожидалось - [%s]",
-//                actualPhone, expectedPhone), actualPhone.contains(expectedPhone));
-//    }
+    @Step("текст ошибка о пустых контактных данных - {0}")
+    public void stepPhone(String expectedPhone){
+        String actualPhone = new SendAppPage2().phone.getText();
+        assertTrue(String.format("Заголовок равен [%s]. Ожидалось - [%s]",
+                actualPhone, expectedPhone), actualPhone.contains(expectedPhone));
+    }
 
     @Step("выполнено нажатие на кнопку Продолжить")
     public void stepcontButton(){
